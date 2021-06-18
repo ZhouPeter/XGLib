@@ -26,7 +26,7 @@
     },
     {
       "name": "Assets",
-      "resources": "XGLib/Assets/**/*"
+      "resources": "XGLib/Assets/*.png"
     }
   ],
   "swift_version": "5.0"

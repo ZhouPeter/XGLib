@@ -114,7 +114,7 @@ Pod::Spec.new do |spec|
 
 
   spec.subspec 'Assets' do |ss|
-      ss.resources = 'XGLib/Assets/**/*'
+      ss.resources = 'XGLib/Assets/*.png'
   end
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
