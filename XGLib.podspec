@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "XGLib"
-  spec.version          = '0.0.1'
+  spec.version          = '0.1.0'
   spec.summary      = "创建CocoaPods私有库实例"
   spec.ios.deployment_target = '13.0'
 
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => 'https://github.com/ZhouPeter/XGLib.git', :tag => spec.version.to_s }
+  spec.source       = { :git => 'https://github.com/ZhouPeter/XGLib.git', :tag => spec.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
