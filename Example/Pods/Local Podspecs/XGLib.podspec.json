@@ -1,0 +1,25 @@
+{
+  "name": "XGLib",
+  "version": "0.0.1",
+  "summary": "创建CocoaPods私有库实例",
+  "description": "创建CocoaPods私有库实例工程",
+  "homepage": "https://github.com/ZhouPeter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Zhou": "peterzhouningbo@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ZhouPeter/XGLib.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "XGLib/Classes/**/*",
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

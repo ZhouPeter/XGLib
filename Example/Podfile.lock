@@ -1,0 +1,16 @@
+PODS:
+  - XGLib (0.0.1)
+
+DEPENDENCIES:
+  - XGLib (from `../`)
+
+EXTERNAL SOURCES:
+  XGLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XGLib: 6349cfadd3f57f0511d5161fe4d1801d18255fe2
+
+PODFILE CHECKSUM: 14ed8460e74ccbb70d247e60e8b88dbfa32ffb10
+
+COCOAPODS: 1.10.0

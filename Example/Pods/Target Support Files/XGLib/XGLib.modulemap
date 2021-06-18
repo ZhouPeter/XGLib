@@ -1,0 +1,6 @@
+framework module XGLib {
+  umbrella header "XGLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
