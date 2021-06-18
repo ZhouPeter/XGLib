@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0E3EEF9D7B4EF1540E7EDD943D41A478 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		13DE7BD331030578CF53066361D663B3 /* 编组 5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2B1B8428DBC2C4B5C80927CBC67A62D /* 编组 5@2x.png */; };
+		13DE7BD331030578CF53066361D663B3 /* ceshi.png in Resources */ = {isa = PBXBuildFile; fileRef = B2B1B8428DBC2C4B5C80927CBC67A62D /* ceshi.png */; };
 		418EBEB99BF2DF7F68D92BCCB3D02640 /* NewClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE20748203EDB25DF324F079414AC45 /* NewClass.swift */; };
 		5671186D1E88EB697AF1F00758137F0C /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890ED6A26E7C537FE1F8475702634F9F /* UILabel+Extension.swift */; };
 		619516494E420ECD4402A40D59BCD138 /* Pods-XGLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AC45099EDA0C088F92B22BC4B9CBA39 /* Pods-XGLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -44,13 +44,13 @@
 		14CBF6592FE363A825CAD8034A2A9495 /* Pods-XGLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XGLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		183BD44A1A01C3D946E8DC6DD9A47E25 /* XGLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XGLib-umbrella.h"; sourceTree = "<group>"; };
 		2DA1064D0C048328EE148941B3A58371 /* Pods-XGLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XGLib_Example-frameworks.sh"; sourceTree = "<group>"; };
-		3C006FD63A5CF6CA9A0137F03B07E833 /* Pods_XGLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XGLib_Tests.framework; path = "Pods-XGLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C006FD63A5CF6CA9A0137F03B07E833 /* Pods_XGLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XGLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4643A1FE0F61C8BB0665DACB30EA5AD4 /* XGLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XGLib.modulemap; sourceTree = "<group>"; };
 		4A1F592540164428BC3CFD0886FA0209 /* XGLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XGLib.debug.xcconfig; sourceTree = "<group>"; };
 		542D88DE641DCE44F9A19E0576C8BF02 /* Pods-XGLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XGLib_Tests-Info.plist"; sourceTree = "<group>"; };
 		5C8A69D85F627845457FCF8EE615E305 /* XGLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XGLib-Info.plist"; sourceTree = "<group>"; };
 		6B805C37AFCC0695595B5790ABBDA3AC /* Pods-XGLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XGLib_Example-Info.plist"; sourceTree = "<group>"; };
-		6CB5AFD9CC4D6CDBFA10B1495C4DB5EE /* Pods_XGLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XGLib_Example.framework; path = "Pods-XGLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CB5AFD9CC4D6CDBFA10B1495C4DB5EE /* Pods_XGLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XGLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		8183A9CD010881C18F6CA4E810BF05DE /* Pods-XGLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XGLib_Example.modulemap"; sourceTree = "<group>"; };
 		890ED6A26E7C537FE1F8475702634F9F /* UILabel+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILabel+Extension.swift"; path = "XGLib/Classes/UILabel+Extension.swift"; sourceTree = "<group>"; };
@@ -58,22 +58,22 @@
 		8AE20748203EDB25DF324F079414AC45 /* NewClass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NewClass.swift; path = XGLib/Classes/NewClass.swift; sourceTree = "<group>"; };
 		8B0751DE39CA6BBC2EB46D830B2BFC05 /* Pods-XGLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XGLib_Example-dummy.m"; sourceTree = "<group>"; };
 		98BCD6451159DFA2A368BEA06B750163 /* XGLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XGLib-prefix.pch"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A37BD592C742CB07C1320839A19F2A8A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A37BD592C742CB07C1320839A19F2A8A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A7507B85305C6053C98247B527DF58A5 /* Pods-XGLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XGLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B2B1B8428DBC2C4B5C80927CBC67A62D /* 编组 5@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "编组 5@2x.png"; path = "XGLib/Assets/编组 5@2x.png"; sourceTree = "<group>"; };
+		B2B1B8428DBC2C4B5C80927CBC67A62D /* ceshi.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ceshi.png; path = XGLib/Assets/ceshi.png; sourceTree = "<group>"; };
 		B7505A784EABBB658D97041E05168EFF /* Pods-XGLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XGLib_Example-umbrella.h"; sourceTree = "<group>"; };
 		B860C5CE186EFC1AD798EC488066B487 /* Pods-XGLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XGLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BC9AFDF53AD234356F4C80D25CB17FF9 /* Pods-XGLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XGLib_Tests-dummy.m"; sourceTree = "<group>"; };
 		BEDE08A5C00F2C107F8EA524DB7952BB /* XGLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XGLib-dummy.m"; sourceTree = "<group>"; };
 		BF5070DB9D176CF31CEE68C23A2DB2BC /* Pods-XGLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XGLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BF551A93E27BB7DB922DA6845169561B /* Pods-XGLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XGLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		C042D0A226058028FFAB9FBC65536A71 /* XGLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XGLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C042D0A226058028FFAB9FBC65536A71 /* XGLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = XGLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C1D74A385F7DB555A8C9614B291AE024 /* Pods-XGLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XGLib_Tests.modulemap"; sourceTree = "<group>"; };
-		CB113C6261EF5A55D67B3FC40FD358B0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CB113C6261EF5A55D67B3FC40FD358B0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		E307C4EA0CE142A34C6D7E1AB33C8D22 /* Pods-XGLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XGLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F39411B2A1689D898AF7EBA48F50DE3C /* XGLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XGLib.release.xcconfig; sourceTree = "<group>"; };
-		FFAEC91845B2AEFEF42CB6A971E7F517 /* XGLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XGLib.framework; path = XGLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFAEC91845B2AEFEF42CB6A971E7F517 /* XGLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XGLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,7 +137,7 @@
 		32E2051914AAE44B9296F8D8848F76B2 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				B2B1B8428DBC2C4B5C80927CBC67A62D /* 编组 5@2x.png */,
+				B2B1B8428DBC2C4B5C80927CBC67A62D /* ceshi.png */,
 			);
 			name = Assets;
 			sourceTree = "<group>";
@@ -372,7 +372,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13DE7BD331030578CF53066361D663B3 /* 编组 5@2x.png in Resources */,
+				13DE7BD331030578CF53066361D663B3 /* ceshi.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -685,8 +685,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
