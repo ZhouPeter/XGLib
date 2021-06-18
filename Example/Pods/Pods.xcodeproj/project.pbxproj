@@ -8,9 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0463C0F8E9AC5C79536F20DBBCAE9E78 /* XGLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4981F28F754E924F85E526999CCBF52B /* XGLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		14F4A507664A1A244825EC1B4D627E68 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4F5D9324B203F00EDCB01D9DE1E1CC /* UILabel+Extension.swift */; };
 		2F676922929F6D68CDD73D093D836B28 /* 编组 5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDEDF1D5D36FAD8E18E791507D9C5B01 /* 编组 5@2x.png */; };
-		5824BD20267C90320081973A /* NewClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5824BD1F267C90320081973A /* NewClass.swift */; };
+		5824BD22267C91030081973A /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5824BD21267C91030081973A /* UILabel+Extension.swift */; };
 		619516494E420ECD4402A40D59BCD138 /* Pods-XGLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AC45099EDA0C088F92B22BC4B9CBA39 /* Pods-XGLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6C172890D80536723A697FC50F1FE5F7 /* Pods-XGLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7505A784EABBB658D97041E05168EFF /* Pods-XGLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		95F5ABAD816F6ADB46398E899C978C48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -47,7 +46,7 @@
 		3C006FD63A5CF6CA9A0137F03B07E833 /* Pods_XGLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XGLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4981F28F754E924F85E526999CCBF52B /* XGLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XGLib-umbrella.h"; sourceTree = "<group>"; };
 		542D88DE641DCE44F9A19E0576C8BF02 /* Pods-XGLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XGLib_Tests-Info.plist"; sourceTree = "<group>"; };
-		5824BD1F267C90320081973A /* NewClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewClass.swift; sourceTree = "<group>"; };
+		5824BD21267C91030081973A /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
 		611AF44A8D173306068A5B7E7DE79E69 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		679E5FF76844E7D18E9A795B1DAD7457 /* XGLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XGLib-prefix.pch"; sourceTree = "<group>"; };
 		6B19B6A81A3328997BEE81F4AD403630 /* XGLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XGLib-Info.plist"; sourceTree = "<group>"; };
@@ -58,7 +57,6 @@
 		8183A9CD010881C18F6CA4E810BF05DE /* Pods-XGLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XGLib_Example.modulemap"; sourceTree = "<group>"; };
 		8AC45099EDA0C088F92B22BC4B9CBA39 /* Pods-XGLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XGLib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8B0751DE39CA6BBC2EB46D830B2BFC05 /* Pods-XGLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XGLib_Example-dummy.m"; sourceTree = "<group>"; };
-		8F4F5D9324B203F00EDCB01D9DE1E1CC /* UILabel+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILabel+Extension.swift"; path = "XGLib/Classes/UILabel+Extension.swift"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A6495A1135D326D6F1911942E73AF9DE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A7507B85305C6053C98247B527DF58A5 /* Pods-XGLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XGLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -116,8 +114,7 @@
 		11349C9B66F085C3436525571BBFB5BD /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				5824BD1F267C90320081973A /* NewClass.swift */,
-				8F4F5D9324B203F00EDCB01D9DE1E1CC /* UILabel+Extension.swift */,
+				5824BD21267C91030081973A /* UILabel+Extension.swift */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -390,8 +387,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5824BD20267C90320081973A /* NewClass.swift in Sources */,
-				14F4A507664A1A244825EC1B4D627E68 /* UILabel+Extension.swift in Sources */,
+				5824BD22267C91030081973A /* UILabel+Extension.swift in Sources */,
 				E44A2A353FBA02CF08F949C591A89009 /* XGLib-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

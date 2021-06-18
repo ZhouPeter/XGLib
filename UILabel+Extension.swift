@@ -1,12 +1,11 @@
 //
-//  UILabel+Extension.swift
-//  Pods
+//  NewClass.swift
+//  XGLib
 //
 //  Created by 周鹏杰 on 2021/6/18.
 //
 
-import UIKit
-
+import Foundation
 extension UILabel {
  
     convenience public init(bgColor: UIColor?,
