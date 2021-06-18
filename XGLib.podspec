@@ -18,6 +18,7 @@ Pod::Spec.new do |spec|
   spec.name         = "XGLib"
   spec.version      = "0.0.1"
   spec.summary      = "创建CocoaPods私有库实例"
+  spec.ios.deployment_target = '12.0'
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -28,7 +29,7 @@ Pod::Spec.new do |spec|
   创建CocoaPods私有库实例工程
                    DESC
 
-  spec.homepage     = "https://github.com/ZhouPeter"
+  spec.homepage     = "https://github.com/ZhouPeter/XGLib"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,10 +90,12 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "XGLib/Classes/**/*"
+  spec.source_files  = "Classes", "XGLib/Classes/**/*"
   #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
+
+  spec.swift_version = '5.0'
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -104,7 +107,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-   spec.resources = "XGLib/Assets/*.png"
+  spec.resources =  "XGLib/Assets/*.png"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
