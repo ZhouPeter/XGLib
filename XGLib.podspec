@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "XGLib"
-  spec.version          = '0.0.1'
+  spec.version          = '0.1.0'
   spec.summary      = "创建CocoaPods私有库实例"
   spec.ios.deployment_target = '13.0'
 
@@ -113,9 +113,13 @@ Pod::Spec.new do |spec|
 #  spec.resources =  "XGLib/Assets/*.png"
 
 
-  spec.subspec 'Assets' do |ss|
-      ss.resources = 'XGLib/Assets/*.png'
-  end
+#  spec.subspec 'Assets' do |ss|
+#      ss.resources = 'XGLib/Assets/*.png'
+#  end
+  
+  spec.resource_bundles = {
+    'Assets' => ['XGLib/Assets/*.png']
+  }
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 

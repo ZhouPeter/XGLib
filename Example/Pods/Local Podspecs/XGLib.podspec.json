@@ -19,14 +19,15 @@
     "tag": "0.0.1"
   },
   "swift_versions": "5.0",
+  "resource_bundles": {
+    "Assets": [
+      "XGLib/Assets/*.png"
+    ]
+  },
   "subspecs": [
     {
       "name": "Classes",
       "source_files": "XGLib/Classes/**/*"
-    },
-    {
-      "name": "Assets",
-      "resources": "XGLib/Assets/*.png"
     }
   ],
   "swift_version": "5.0"

@@ -1,8 +1,6 @@
 PODS:
   - XGLib (0.0.1):
-    - XGLib/Assets (= 0.0.1)
     - XGLib/Classes (= 0.0.1)
-  - XGLib/Assets (0.0.1)
   - XGLib/Classes (0.0.1)
 
 DEPENDENCIES:
@@ -13,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XGLib: 05ee4cf158e0fdd4371cd7f6b232fae41ee35457
+  XGLib: 5a246b9a9829be5f811bbbc2d8cfdaa04df866cb
 
 PODFILE CHECKSUM: 694680ecf2acb5cefe859a73b141f3bebef3f23d
 
