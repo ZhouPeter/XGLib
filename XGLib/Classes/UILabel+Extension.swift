@@ -47,5 +47,19 @@ extension UILabel {
             self.numberOfLines = numberOfLines
         }
     }
+    
+    /// 背景透明，不加粗，居中对齐
+    convenience public init(centerText: String?,
+                            textColor: UIColor?,
+                            fontSize: CGFloat?) {
+        self.init(bgColor: nil, text: centerText, textColor: textColor, fontSize: fontSize, isBold: false, textAlignment: .center, numberOfLines: nil)
+    }
+    
+    /// 背景透明，加粗，居中对齐
+    convenience public init(centerBoldText: String?,
+                            textColor: UIColor?,
+                            fontSize: CGFloat?) {
+        self.init(bgColor: nil, text: centerBoldText, textColor: textColor, fontSize: fontSize, isBold: true, textAlignment: .center, numberOfLines: nil)
+    }
 
 }
