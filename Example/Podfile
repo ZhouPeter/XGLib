@@ -5,7 +5,7 @@ use_frameworks!
 platform :ios, '13.0'
 
 target 'XGLib_Example' do
-  pod 'XGLib', :tag => '0.2.0'
+  pod 'XGLib', :path => '../'
   
   target 'XGLib_Tests' do
     inherit! :search_paths
