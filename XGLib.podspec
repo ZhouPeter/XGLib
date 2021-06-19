@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => 'https://github.com/ZhouPeter/XGLib.git', :tag => spec.version.to_s }
+  spec.source       = { :git => 'https://github.com/ZhouPeter/XGLib.git', :tag => spec.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
