@@ -1,6 +1,6 @@
 {
   "name": "XGLib",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "summary": "创建CocoaPods私有库实例",
   "platforms": {
     "ios": "13.0"
@@ -16,7 +16,7 @@
   },
   "source": {
     "git": "https://github.com/ZhouPeter/XGLib.git",
-    "tag": "0.0.1"
+    "tag": "0.1.0"
   },
   "swift_versions": "5.0",
   "resource_bundles": {
