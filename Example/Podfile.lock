@@ -1,7 +1,7 @@
 PODS:
-  - XGLib (0.1.0):
-    - XGLib/Classes (= 0.1.0)
-  - XGLib/Classes (0.1.0)
+  - XGLib (0.2.0):
+    - XGLib/Classes (= 0.2.0)
+  - XGLib/Classes (0.2.0)
 
 DEPENDENCIES:
   - XGLib (from `../`)
@@ -11,8 +11,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XGLib: 7d6298d64d6a8a0fcaf07c6cc7102a7925dce2f8
+  XGLib: 41ec3f00aee51f471b0f3144b0a0a6fae848370f
 
-PODFILE CHECKSUM: 694680ecf2acb5cefe859a73b141f3bebef3f23d
+PODFILE CHECKSUM: 14e588890eed4b7e7727f4423ea6574e820c7899
 
 COCOAPODS: 1.10.0

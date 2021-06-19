@@ -1,10 +1,12 @@
+
+source 'https://github.com/ZhouPeter/Spec.git'
 use_frameworks!
 
 platform :ios, '13.0'
 
 target 'XGLib_Example' do
-  pod 'XGLib', :path => '../'
-
+  pod 'XGLib', :tag => '0.2.0'
+  
   target 'XGLib_Tests' do
     inherit! :search_paths
 
